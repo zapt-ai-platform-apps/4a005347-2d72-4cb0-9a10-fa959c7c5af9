@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import * as Sentry from '@sentry/browser';
-import { supabase } from './supabaseClient';
+import { supabase } from '../supabaseClient';
 
 const PurposeQuiz = ({ onComplete }) => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
